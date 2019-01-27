@@ -1,0 +1,6 @@
+framework module Pods_ShokshChat {
+  umbrella header "Pods-ShokshChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

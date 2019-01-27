@@ -9,19 +9,33 @@
 /* Begin PBXBuildFile section */
 		462DE75F21FDF259009FE253 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462DE75E21FDF259009FE253 /* AppDelegate.swift */; };
 		462DE76121FDF259009FE253 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462DE76021FDF259009FE253 /* ViewController.swift */; };
-		462DE76421FDF259009FE253 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462DE76221FDF259009FE253 /* Main.storyboard */; };
 		462DE76621FDF25C009FE253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462DE76521FDF25C009FE253 /* Assets.xcassets */; };
 		462DE76921FDF25C009FE253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462DE76721FDF25C009FE253 /* LaunchScreen.storyboard */; };
+		462DE77321FE0202009FE253 /* New.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462DE77221FE0202009FE253 /* New.storyboard */; };
+		462DE77821FE029D009FE253 /* Utilities in Resources */ = {isa = PBXBuildFile; fileRef = 462DE77421FE029B009FE253 /* Utilities */; };
+		462DE77921FE029D009FE253 /* Controller in Resources */ = {isa = PBXBuildFile; fileRef = 462DE77521FE029C009FE253 /* Controller */; };
+		462DE77A21FE029D009FE253 /* View in Resources */ = {isa = PBXBuildFile; fileRef = 462DE77621FE029D009FE253 /* View */; };
+		462DE78121FE0604009FE253 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462DE77F21FE0603009FE253 /* SWRevealViewController.m */; };
+		50FA827ED50F09840848D1FF /* Pods_ShokshChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2209338C8F1A5C84585EA4AA /* Pods_ShokshChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2209338C8F1A5C84585EA4AA /* Pods_ShokshChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShokshChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		462DE75B21FDF259009FE253 /* ShokshChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShokshChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		462DE75E21FDF259009FE253 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		462DE76021FDF259009FE253 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		462DE76321FDF259009FE253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		462DE76521FDF25C009FE253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		462DE76821FDF25C009FE253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		462DE76A21FDF25C009FE253 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		462DE77221FE0202009FE253 /* New.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = New.storyboard; sourceTree = "<group>"; };
+		462DE77421FE029B009FE253 /* Utilities */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Utilities; sourceTree = "<group>"; };
+		462DE77521FE029C009FE253 /* Controller */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Controller; sourceTree = "<group>"; };
+		462DE77621FE029D009FE253 /* View */ = {isa = PBXFileReference; lastKnownFileType = folder; path = View; sourceTree = "<group>"; };
+		462DE77E21FE0601009FE253 /* ShokshChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShokshChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		462DE77F21FE0603009FE253 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		462DE78021FE0604009FE253 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		D90D7DD37748A5A384DB3C3C /* Pods-ShokshChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShokshChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShokshChat/Pods-ShokshChat.debug.xcconfig"; sourceTree = "<group>"; };
+		E3F13129E323EF67F86C0F57 /* Pods-ShokshChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShokshChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShokshChat/Pods-ShokshChat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				50FA827ED50F09840848D1FF /* Pods_ShokshChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0C335742350DB80BE23518AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2209338C8F1A5C84585EA4AA /* Pods_ShokshChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		462DE75221FDF259009FE253 = {
 			isa = PBXGroup;
 			children = (
 				462DE75D21FDF259009FE253 /* ShokshChat */,
 				462DE75C21FDF259009FE253 /* Products */,
+				540D1ACF3E6994BE52C758B3 /* Pods */,
+				0C335742350DB80BE23518AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +79,45 @@
 		462DE75D21FDF259009FE253 /* ShokshChat */ = {
 			isa = PBXGroup;
 			children = (
+				462DE77D21FE05E2009FE253 /* Supporting Files */,
+				462DE77C21FE02AE009FE253 /* Model */,
+				462DE77521FE029C009FE253 /* Controller */,
+				462DE77421FE029B009FE253 /* Utilities */,
+				462DE77621FE029D009FE253 /* View */,
 				462DE75E21FDF259009FE253 /* AppDelegate.swift */,
 				462DE76021FDF259009FE253 /* ViewController.swift */,
-				462DE76221FDF259009FE253 /* Main.storyboard */,
+				462DE77221FE0202009FE253 /* New.storyboard */,
 				462DE76521FDF25C009FE253 /* Assets.xcassets */,
 				462DE76721FDF25C009FE253 /* LaunchScreen.storyboard */,
 				462DE76A21FDF25C009FE253 /* Info.plist */,
 			);
 			path = ShokshChat;
+			sourceTree = "<group>";
+		};
+		462DE77C21FE02AE009FE253 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		462DE77D21FE05E2009FE253 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				462DE78021FE0604009FE253 /* SWRevealViewController.h */,
+				462DE77F21FE0603009FE253 /* SWRevealViewController.m */,
+				462DE77E21FE0601009FE253 /* ShokshChat-Bridging-Header.h */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		540D1ACF3E6994BE52C758B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D90D7DD37748A5A384DB3C3C /* Pods-ShokshChat.debug.xcconfig */,
+				E3F13129E323EF67F86C0F57 /* Pods-ShokshChat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +127,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 462DE76D21FDF25C009FE253 /* Build configuration list for PBXNativeTarget "ShokshChat" */;
 			buildPhases = (
+				72E984954073A51059078AF5 /* [CP] Check Pods Manifest.lock */,
 				462DE75721FDF259009FE253 /* Sources */,
 				462DE75821FDF259009FE253 /* Frameworks */,
 				462DE75921FDF259009FE253 /* Resources */,
+				A68C1D0F3A52D1393D133E1E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -96,6 +154,7 @@
 				TargetAttributes = {
 					462DE75A21FDF259009FE253 = {
 						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -123,12 +182,60 @@
 			buildActionMask = 2147483647;
 			files = (
 				462DE76921FDF25C009FE253 /* LaunchScreen.storyboard in Resources */,
+				462DE77A21FE029D009FE253 /* View in Resources */,
 				462DE76621FDF25C009FE253 /* Assets.xcassets in Resources */,
-				462DE76421FDF259009FE253 /* Main.storyboard in Resources */,
+				462DE77921FE029D009FE253 /* Controller in Resources */,
+				462DE77821FE029D009FE253 /* Utilities in Resources */,
+				462DE77321FE0202009FE253 /* New.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		72E984954073A51059078AF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ShokshChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A68C1D0F3A52D1393D133E1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ShokshChat/Pods-ShokshChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Socket.IO-Client-Swift/SocketIO.framework",
+				"${BUILT_PRODUCTS_DIR}/Starscream/Starscream.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SocketIO.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Starscream.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShokshChat/Pods-ShokshChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		462DE75721FDF259009FE253 /* Sources */ = {
@@ -137,20 +244,13 @@
 			files = (
 				462DE76121FDF259009FE253 /* ViewController.swift in Sources */,
 				462DE75F21FDF259009FE253 /* AppDelegate.swift in Sources */,
+				462DE78121FE0604009FE253 /* SWRevealViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		462DE76221FDF259009FE253 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				462DE76321FDF259009FE253 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		462DE76721FDF25C009FE253 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -280,8 +380,10 @@
 		};
 		462DE76E21FDF25C009FE253 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D90D7DD37748A5A384DB3C3C /* Pods-ShokshChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShokshChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -290,15 +392,19 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.elshakoushy.ShokshChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "ShokshChat/Supporting Files/ShokshChat-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		462DE76F21FDF25C009FE253 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3F13129E323EF67F86C0F57 /* Pods-ShokshChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ShokshChat/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -307,7 +413,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.elshakoushy.ShokshChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_OBJC_BRIDGING_HEADER = "ShokshChat/Supporting Files/ShokshChat-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
