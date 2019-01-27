@@ -3,7 +3,7 @@
 import UIKit
 
 class LoginVC: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -12,7 +12,7 @@ class LoginVC: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     
-    @IBAction func creatAccountPressed(_ sender: Any) {
+  /*  @IBAction func creatAccountPressed(_ sender: Any) {
         performSegue(withIdentifier: TO_Account, sender: nil)
-    }
+    }*/
 }

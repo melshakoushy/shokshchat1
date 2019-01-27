@@ -3,9 +3,10 @@
 import UIKit
 
 class ChatVC: UIViewController {
-
-    @IBOutlet weak var menuBtn: UIButton!
     
+    
+    
+    @IBOutlet weak var menuBtn: UIButton!
     
     
     override func viewDidLoad() {
