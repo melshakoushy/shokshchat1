@@ -8,8 +8,8 @@ class CreateAccountVC: UIViewController {
         super.viewDidLoad()
     }
     
-  //  @IBAction func closePressed(_ sender: Any) {
-    //    performSegue(withIdentifier: UNWIND, sender: nil)
-    //}
+    @IBAction func closePressed(_ sender: Any) {
+       performSegue(withIdentifier: UNWIND, sender: nil)
+    }
     
 }
