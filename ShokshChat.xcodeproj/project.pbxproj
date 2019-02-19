@@ -14,6 +14,8 @@
 		462BCB8621FE226C00373B0B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462BCB8521FE226C00373B0B /* Constants.swift */; };
 		462BCB8921FE22CA00373B0B /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462BCB8821FE22CA00373B0B /* GradientView.swift */; };
 		462BCB8B21FE22FC00373B0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462BCB8A21FE22FC00373B0B /* AppDelegate.swift */; };
+		462BCB8E21FF964C00373B0B /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462BCB8D21FF964C00373B0B /* AuthService.swift */; };
+		462BCB90221C949300373B0B /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462BCB8F221C949300373B0B /* RoundedButton.swift */; };
 		462DE76621FDF25C009FE253 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 462DE76521FDF25C009FE253 /* Assets.xcassets */; };
 		462DE76921FDF25C009FE253 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462DE76721FDF25C009FE253 /* LaunchScreen.storyboard */; };
 		462DE77321FE0202009FE253 /* New.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462DE77221FE0202009FE253 /* New.storyboard */; };
@@ -30,6 +32,8 @@
 		462BCB8521FE226C00373B0B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		462BCB8821FE22CA00373B0B /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		462BCB8A21FE22FC00373B0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		462BCB8D21FF964C00373B0B /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		462BCB8F221C949300373B0B /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		462DE75B21FDF259009FE253 /* ShokshChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShokshChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		462DE76521FDF25C009FE253 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		462DE76821FDF25C009FE253 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -87,9 +91,18 @@
 			isa = PBXGroup;
 			children = (
 				462BCB8821FE22CA00373B0B /* GradientView.swift */,
+				462BCB8F221C949300373B0B /* RoundedButton.swift */,
 			);
 			name = View;
 			path = "New Group2";
+			sourceTree = "<group>";
+		};
+		462BCB8C21FF962C00373B0B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				462BCB8D21FF964C00373B0B /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		462DE75221FDF259009FE253 = {
@@ -113,6 +126,7 @@
 		462DE75D21FDF259009FE253 /* ShokshChat */ = {
 			isa = PBXGroup;
 			children = (
+				462BCB8C21FF962C00373B0B /* Services */,
 				462BCB8721FE228800373B0B /* View */,
 				462BCB8421FE225200373B0B /* Utilities */,
 				462BCB7321FE1FD200373B0B /* Controller */,
@@ -273,8 +287,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				462BCB8B21FE22FC00373B0B /* AppDelegate.swift in Sources */,
+				462BCB90221C949300373B0B /* RoundedButton.swift in Sources */,
 				462BCB7D21FE208000373B0B /* ChatVC.swift in Sources */,
 				462BCB8121FE215400373B0B /* LoginVC.swift in Sources */,
+				462BCB8E21FF964C00373B0B /* AuthService.swift in Sources */,
 				462DE78121FE0604009FE253 /* SWRevealViewController.m in Sources */,
 				462BCB8621FE226C00373B0B /* Constants.swift in Sources */,
 				462BCB8321FE218400373B0B /* CreateAccountVC.swift in Sources */,
