@@ -5,6 +5,7 @@ typealias CompletionHandler = (_ Success: Bool) -> ()
 let TO_LOGIN = "toLogin"
 let TO_Account = "toAccount"
 let UNWIND = "unwindToChannel"
+let TO_AVATAR_PICKER = "toAvatarPicker"
 
 // User Defaults
 let LOGGED_IN_KEY = "loggedIn"
