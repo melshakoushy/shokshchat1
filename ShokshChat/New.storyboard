@@ -104,7 +104,7 @@
                                 <rect key="frame" x="278" y="83" width="22" height="22"/>
                                 <state key="normal" image="addChannelButton"/>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="jSl-vI-B3g">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="jSl-vI-B3g" customClass="CircleImage" customModule="ShokshChat" customModuleProvider="target">
                                 <rect key="frame" x="12" y="572" width="75" height="75"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="75" id="13s-x3-43N"/>
@@ -378,7 +378,7 @@
                                     <constraint firstAttribute="width" constant="250" id="tXB-ox-2th"/>
                                 </constraints>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="iq6-NQ-z0p">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profileDefault" translatesAutoresizingMaskIntoConstraints="NO" id="iq6-NQ-z0p" customClass="CircleImage" customModule="ShokshChat" customModuleProvider="target">
                                 <rect key="frame" x="112.5" y="290" width="150" height="150"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="4OJ-yy-8sv"/>
@@ -433,6 +433,10 @@
                                 <color key="textColor" red="0.25882352939999997" green="0.3294117647" blue="0.72549019609999998" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="ABv-XR-tvN">
+                                <rect key="frame" x="169" y="215" width="37" height="37"/>
+                                <color key="color" red="0.2901960784" green="0.30196078430000001" blue="0.84705882349999995" alpha="1" colorSpace="calibratedRGB"/>
+                            </activityIndicatorView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -449,6 +453,8 @@
                             <constraint firstItem="quI-uJ-MiM" firstAttribute="top" secondItem="2xI-1l-V5c" secondAttribute="top" constant="40" id="gyy-03-gqv"/>
                             <constraint firstItem="0TE-rj-3XN" firstAttribute="top" secondItem="iq6-NQ-z0p" secondAttribute="top" id="qQb-Qv-oSm"/>
                             <constraint firstItem="0TE-rj-3XN" firstAttribute="centerX" secondItem="6Or-hv-HTa" secondAttribute="centerX" id="qmM-6X-ADL"/>
+                            <constraint firstItem="ABv-XR-tvN" firstAttribute="centerX" secondItem="6Or-hv-HTa" secondAttribute="centerX" id="slz-OW-Z7d"/>
+                            <constraint firstItem="ABv-XR-tvN" firstAttribute="centerY" secondItem="6Or-hv-HTa" secondAttribute="centerY" constant="-100" id="tGd-Dh-vob"/>
                             <constraint firstItem="wu6-RH-T6C" firstAttribute="centerX" secondItem="6Or-hv-HTa" secondAttribute="centerX" id="utu-yJ-ECp"/>
                             <constraint firstItem="La6-4P-NID" firstAttribute="top" secondItem="2xI-1l-V5c" secondAttribute="top" constant="8" id="xz4-PK-6YZ"/>
                         </constraints>
@@ -457,6 +463,7 @@
                     <connections>
                         <outlet property="emailTxt" destination="4bj-jA-WIu" id="82C-3n-4cc"/>
                         <outlet property="passwordTxt" destination="DyN-Dv-BSO" id="hdS-mO-s8C"/>
+                        <outlet property="spinner" destination="ABv-XR-tvN" id="YvP-Qj-6B1"/>
                         <outlet property="userImg" destination="0TE-rj-3XN" id="1za-hh-Ha4"/>
                         <outlet property="usernameTxt" destination="wu4-96-zh1" id="fS0-Ib-vHi"/>
                         <segue destination="x8z-lG-1Eq" kind="unwind" identifier="unwindToChannel" unwindAction="prepareForUnwindWithSegue:" id="Roe-jh-gID"/>
@@ -518,19 +525,23 @@
                                             <rect key="frame" x="0.0" y="0.0" width="100" height="100"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="J28-7P-e0K">
+                                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="oRo-w8-s8H">
                                                     <rect key="frame" x="10" y="10" width="80" height="80"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="80" id="X6Y-1Q-QeS"/>
+                                                        <constraint firstAttribute="width" constant="80" id="nLq-DV-Y7X"/>
+                                                    </constraints>
                                                 </imageView>
                                             </subviews>
                                         </view>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="J28-7P-e0K" secondAttribute="trailing" constant="10" id="6SY-72-gO0"/>
-                                            <constraint firstItem="J28-7P-e0K" firstAttribute="top" secondItem="jJa-WB-KSr" secondAttribute="top" constant="10" id="AAo-gH-QgI"/>
-                                            <constraint firstItem="J28-7P-e0K" firstAttribute="leading" secondItem="jJa-WB-KSr" secondAttribute="leading" constant="10" id="IAq-tx-RBz"/>
-                                            <constraint firstAttribute="bottom" secondItem="J28-7P-e0K" secondAttribute="bottom" constant="10" id="PZ1-kd-T9m"/>
+                                            <constraint firstAttribute="bottom" secondItem="oRo-w8-s8H" secondAttribute="bottom" constant="10" id="59d-vM-Lge"/>
+                                            <constraint firstItem="oRo-w8-s8H" firstAttribute="top" secondItem="jJa-WB-KSr" secondAttribute="top" constant="10" id="CwC-kx-H0v"/>
+                                            <constraint firstItem="oRo-w8-s8H" firstAttribute="leading" secondItem="jJa-WB-KSr" secondAttribute="leading" constant="10" id="fVB-VK-sTM"/>
+                                            <constraint firstAttribute="trailing" secondItem="oRo-w8-s8H" secondAttribute="trailing" constant="10" id="nwC-Xm-00P"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="AvatarImg" destination="J28-7P-e0K" id="LHY-e1-A4u"/>
+                                            <outlet property="avatarImg" destination="oRo-w8-s8H" id="APp-fm-H5J"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShokshChat/New Group/AvatarPickerVC.swift"
+            timestampString = "573855548.1373399"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "ShokshChat/New Group2/AvatarCell.swift"
+            timestampString = "573855548.1375459"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "AvatarCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShokshChat.AvatarCell.__allocating_init(frame: __C.CGRect) -&gt; ShokshChat.AvatarCell"
+                  moduleName = "ShokshChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudelshakoushy/Desktop/Apps/ShokshChat/ShokshChat/New%20Group2/AvatarCell.swift"
+                  timestampString = "573409966.96329"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShokshChat.AvatarCell.init(frame: __C.CGRect) -&gt; ShokshChat.AvatarCell"
+                  moduleName = "ShokshChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudelshakoushy/Desktop/Apps/ShokshChat/ShokshChat/New%20Group2/AvatarCell.swift"
+                  timestampString = "573409966.976926"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShokshChat.AvatarCell.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ShokshChat.AvatarCell&gt;"
+                  moduleName = "ShokshChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudelshakoushy/Desktop/Apps/ShokshChat/ShokshChat/New%20Group2/AvatarCell.swift"
+                  timestampString = "573409966.9856009"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShokshChat.AvatarCell.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;ShokshChat.AvatarCell&gt;"
+                  moduleName = "ShokshChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudelshakoushy/Desktop/Apps/ShokshChat/ShokshChat/New%20Group2/AvatarCell.swift"
+                  timestampString = "573409966.994229"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "50">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "ShokshChat.AvatarCell.__deallocating_deinit"
+                  moduleName = "ShokshChat"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mahmoudelshakoushy/Desktop/Apps/ShokshChat/ShokshChat/New%20Group2/AvatarCell.swift"
+                  timestampString = "573409967.003177"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -12,6 +12,12 @@ let LOGGED_IN_KEY = "loggedIn"
 let TOKEN_KEY = "token"
 let USER_EMAIL = "userEmail"
 
+// Colors
+let smackPurplePlaceholder = #colorLiteral(red: 0.3647058824, green: 0.4045833051, blue: 0.8775706887, alpha: 0.5)
+
+// Notification Constants
+let NOTIF_USER_DATA_DID_CHANGE = Notification.Name("notifUserDataChanged")
+
 // URL Constants
 let BASE_URL = "https://chattestshatt.herokuapp.com/v1/"
 let URL_REGISTER = "\(BASE_URL)account/register"
