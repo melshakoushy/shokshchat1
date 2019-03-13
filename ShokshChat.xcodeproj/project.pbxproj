@@ -22,6 +22,8 @@
 		462DE77321FE0202009FE253 /* New.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 462DE77221FE0202009FE253 /* New.storyboard */; };
 		462DE78121FE0604009FE253 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 462DE77F21FE0603009FE253 /* SWRevealViewController.m */; };
 		4656B7A0222F1E8700B40CC1 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4656B79F222F1E8700B40CC1 /* CircleImage.swift */; };
+		468302FC2236EC15008D2253 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468302FA2236EC15008D2253 /* ProfileVC.swift */; };
+		468302FD2236EC15008D2253 /* ProfileVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 468302FB2236EC15008D2253 /* ProfileVC.xib */; };
 		46DA38D6222B14B70082DE3B /* AvatarPickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA38D5222B14B70082DE3B /* AvatarPickerVC.swift */; };
 		46DA38D8222B1B140082DE3B /* AvatarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46DA38D7222B1B140082DE3B /* AvatarCell.swift */; };
 		50FA827ED50F09840848D1FF /* Pods_ShokshChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2209338C8F1A5C84585EA4AA /* Pods_ShokshChat.framework */; };
@@ -48,6 +50,8 @@
 		462DE77F21FE0603009FE253 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
 		462DE78021FE0604009FE253 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		4656B79F222F1E8700B40CC1 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		468302FA2236EC15008D2253 /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		468302FB2236EC15008D2253 /* ProfileVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProfileVC.xib; sourceTree = "<group>"; };
 		46DA38D5222B14B70082DE3B /* AvatarPickerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarPickerVC.swift; sourceTree = "<group>"; };
 		46DA38D7222B1B140082DE3B /* AvatarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCell.swift; sourceTree = "<group>"; };
 		D90D7DD37748A5A384DB3C3C /* Pods-ShokshChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShokshChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShokshChat/Pods-ShokshChat.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +86,7 @@
 				462BCB8021FE215400373B0B /* LoginVC.swift */,
 				462BCB8221FE218400373B0B /* CreateAccountVC.swift */,
 				46DA38D5222B14B70082DE3B /* AvatarPickerVC.swift */,
+				468302FA2236EC15008D2253 /* ProfileVC.swift */,
 			);
 			name = Controller;
 			path = "New Group";
@@ -138,6 +143,7 @@
 		462DE75D21FDF259009FE253 /* ShokshChat */ = {
 			isa = PBXGroup;
 			children = (
+				468302FE2236EC1C008D2253 /* XIBs */,
 				462BCB8C21FF962C00373B0B /* Services */,
 				462BCB8721FE228800373B0B /* View */,
 				462BCB8421FE225200373B0B /* Utilities */,
@@ -168,6 +174,14 @@
 				462DE77E21FE0601009FE253 /* ShokshChat-Bridging-Header.h */,
 			);
 			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		468302FE2236EC1C008D2253 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				468302FB2236EC15008D2253 /* ProfileVC.xib */,
+			);
+			path = XIBs;
 			sourceTree = "<group>";
 		};
 		540D1ACF3E6994BE52C758B3 /* Pods */ = {
@@ -240,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				468302FD2236EC15008D2253 /* ProfileVC.xib in Resources */,
 				462DE76921FDF25C009FE253 /* LaunchScreen.storyboard in Resources */,
 				462DE76621FDF25C009FE253 /* Assets.xcassets in Resources */,
 				462DE77321FE0202009FE253 /* New.storyboard in Resources */,
@@ -298,6 +313,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				468302FC2236EC15008D2253 /* ProfileVC.swift in Sources */,
 				462BCB8B21FE22FC00373B0B /* AppDelegate.swift in Sources */,
 				46DA38D6222B14B70082DE3B /* AvatarPickerVC.swift in Sources */,
 				462BCB90221C949300373B0B /* RoundedButton.swift in Sources */,
