@@ -103,6 +103,9 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XgM-hy-E8b">
                                 <rect key="frame" x="278" y="83" width="22" height="22"/>
                                 <state key="normal" image="addChannelButton"/>
+                                <connections>
+                                    <action selector="addChannelPressed:" destination="eJs-f3-mgT" eventType="touchUpInside" id="z6m-aC-PTN"/>
+                                </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="menuProfileIcon" translatesAutoresizingMaskIntoConstraints="NO" id="jSl-vI-B3g" customClass="CircleImage" customModule="ShokshChat" customModuleProvider="target">
                                 <rect key="frame" x="12" y="572" width="75" height="75"/>
