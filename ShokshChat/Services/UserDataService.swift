@@ -9,6 +9,7 @@
 import Foundation
 
 class UserDataService {
+    
     static let instance = UserDataService()
     
     public private(set) var id = ""
@@ -44,29 +45,42 @@ class UserDataService {
         
         let defaultColor = UIColor.lightGray
         
-        guard let rUnwrapped = r else {return defaultColor}
-        guard let gUnwrapped = g else {return defaultColor}
-        guard let bUnwrapped = b else {return defaultColor}
-        guard let aUnwrapped = a else {return defaultColor}
+        guard let rUnwrapped = r else { return defaultColor }
+        guard let gUnwrapped = g else { return defaultColor }
+        guard let bUnwrapped = b else { return defaultColor }
+        guard let aUnwrapped = a else { return defaultColor }
         
         let rfloat = CGFloat(rUnwrapped.doubleValue)
         let gfloat = CGFloat(gUnwrapped.doubleValue)
         let bfloat = CGFloat(bUnwrapped.doubleValue)
         let afloat = CGFloat(aUnwrapped.doubleValue)
-    
+        
         let newUIColor = UIColor(red: rfloat, green: gfloat, blue: bfloat, alpha: afloat)
         
         return newUIColor
     }
+    
     func logoutUser() {
         id = ""
-        avatarColor = ""
         avatarName = ""
-        name = ""
+        avatarColor = ""
         email = ""
+        name = ""
         AuthService.instance.isLoggedIn = false
-        AuthService.instance.authToken = ""
         AuthService.instance.userEmail = ""
+        AuthService.instance.authToken = ""
     }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
-

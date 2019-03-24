@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		462A07E5224659E7001E61B6 /* SocketService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462A07E4224659E7001E61B6 /* SocketService.swift */; };
 		462BCB7D21FE208000373B0B /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462BCB7C21FE208000373B0B /* ChatVC.swift */; };
 		462BCB7F21FE20FA00373B0B /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462BCB7E21FE20FA00373B0B /* ChannelVC.swift */; };
 		462BCB8121FE215400373B0B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462BCB8021FE215400373B0B /* LoginVC.swift */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		2209338C8F1A5C84585EA4AA /* Pods_ShokshChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShokshChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		462A07E4224659E7001E61B6 /* SocketService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocketService.swift; sourceTree = "<group>"; };
 		462BCB7C21FE208000373B0B /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		462BCB7E21FE20FA00373B0B /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
 		462BCB8021FE215400373B0B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				462BCB8D21FF964C00373B0B /* AuthService.swift */,
 				462BCB912225D04900373B0B /* UserDataService.swift */,
 				46E6E734223C3DA90007DD5E /* MessageService.swift */,
+				462A07E4224659E7001E61B6 /* SocketService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -329,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				462A07E5224659E7001E61B6 /* SocketService.swift in Sources */,
 				468302FC2236EC15008D2253 /* ProfileVC.swift in Sources */,
 				46689009223ED7FE00BB25AF /* ChannelCell.swift in Sources */,
 				462BCB8B21FE22FC00373B0B /* AppDelegate.swift in Sources */,
