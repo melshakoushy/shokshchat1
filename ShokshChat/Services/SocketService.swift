@@ -19,6 +19,7 @@ class SocketService: NSObject {
     
     var socket : SocketIOClient = SocketIOClient(socketURL: URL(string: BASE_URL)!)
     
+    
     func establishConnection() {
         socket.connect()
     }
